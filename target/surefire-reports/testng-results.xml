@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T00:16:59Z" name="Suite" finished-at="2024-04-02T00:19:22Z" duration-ms="143145">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T00:16:59Z" name="SBETTests" finished-at="2024-04-02T00:19:22Z" duration-ms="143145">
+      <class name="MobileTesting.Appium.TestCase_001">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:MobileTesting.Appium.TestCase_001@60641ec8]" started-at="2024-04-02T00:16:59Z" name="configureAppium" finished-at="2024-04-02T00:17:33Z" duration-ms="33409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="NaviagteToLeaugesPage()[pri:1, instance:MobileTesting.Appium.TestCase_001@60641ec8]" started-at="2024-04-02T00:17:33Z" name="NaviagteToLeaugesPage" finished-at="2024-04-02T00:18:24Z" duration-ms="51099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NaviagteToLeaugesPage -->
+        <test-method signature="verifyDifferentLeagues(java.lang.String)[pri:2, instance:MobileTesting.Appium.TestCase_001@60641ec8]" started-at="2024-04-02T00:18:24Z" name="verifyDifferentLeagues" data-provider="getData" finished-at="2024-04-02T00:18:47Z" duration-ms="23398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NCAA Football]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDifferentLeagues -->
+        <test-method signature="verifyDifferentLeagues(java.lang.String)[pri:2, instance:MobileTesting.Appium.TestCase_001@60641ec8]" started-at="2024-04-02T00:18:47Z" name="verifyDifferentLeagues" data-provider="getData" finished-at="2024-04-02T00:19:20Z" duration-ms="32577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PGA Tour]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDifferentLeagues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileTesting.Appium.TestCase_001@60641ec8]" started-at="2024-04-02T00:19:20Z" name="tearDown" finished-at="2024-04-02T00:19:22Z" duration-ms="2610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MobileTesting.Appium.TestCase_001 -->
+    </test> <!-- SBETTests -->
+  </suite> <!-- Suite -->
+</testng-results>

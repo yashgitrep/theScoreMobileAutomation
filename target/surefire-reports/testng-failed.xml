@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="SBETTests(failed)" verbose="0">
+    <classes>
+      <class name="MobileTesting.Appium.TestCase_001">
+        <methods>
+          <include name="verifyDifferentLeagues" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- MobileTesting.Appium.TestCase_001 -->
+    </classes>
+  </test> <!-- SBETTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
